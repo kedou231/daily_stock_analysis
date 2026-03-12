@@ -94,7 +94,7 @@ jobs:
           NEWS_MAX_AGE_DAYS: '3'
         
         run: |
-          python main.py --no-webui --no-serve
+          python main.py
       
       - name: 上传报告（Artifact）
         if: always()
